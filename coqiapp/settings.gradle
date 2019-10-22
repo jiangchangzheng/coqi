@@ -1,0 +1,7 @@
+include ':app'
+
+include ':coqicore'
+include ':coqiplayer'
+include ':coqirecorder'
+include ':coqieditor'
+include ':coqithird'
