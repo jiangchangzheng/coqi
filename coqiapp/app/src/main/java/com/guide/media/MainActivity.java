@@ -13,7 +13,7 @@ import android.view.View;
 
 import com.guide.base.permission.PermissionJudgePolicy;
 import com.guide.media.camera.test.CameraActivity;
-import com.guide.media.player.PlayerActivity;
+import com.guide.media.editor.PlayerActivity;
 import com.guide.media.recorder.RecordActivity;
 
 /**

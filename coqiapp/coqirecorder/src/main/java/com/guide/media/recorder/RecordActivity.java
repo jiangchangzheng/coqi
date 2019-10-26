@@ -10,7 +10,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
 
-import com.guide.demo.R;
+import com.guide.media.R;
 import com.guide.media.camera.CameraManager;
 import com.guide.media.camera.ICameraStatusCallBack;
 

@@ -1,4 +1,4 @@
-package com.guide.media;
+package com.guide;
 
 import android.content.Context;
 import android.media.AudioFormat;

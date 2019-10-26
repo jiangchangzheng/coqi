@@ -10,7 +10,8 @@ import android.media.AudioRecord;
 import android.media.MediaRecorder;
 import android.util.Log;
 
-import com.guide.media.StreamConfig;
+
+import com.guide.StreamConfig;
 
 import java.nio.ByteBuffer;
 

@@ -1,4 +1,4 @@
-package com.guide.media.player;
+package com.guide.media.editor;
 
 import android.app.Activity;
 import android.net.Uri;
@@ -8,7 +8,8 @@ import android.widget.LinearLayout;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
-import com.guide.demo.R;
+import com.guide.media.R;
+
 
 /**
  * 方式1，自带MediaPlayer MediaController + VideoView 实现视频播放的功能

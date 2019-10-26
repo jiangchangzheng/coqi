@@ -11,8 +11,6 @@ import android.os.Message;
 import android.util.Log;
 import android.view.Surface;
 
-import androidx.annotation.WorkerThread;
-
 import com.guide.media.camera.utils.CameraUtil;
 
 /**
@@ -170,7 +168,6 @@ public class CameraManager {
     /**
      * 开启指定摄像头
      */
-    @WorkerThread
     private void doOpenCamera() {
         Camera camera = mCamera;
         if (camera != null) {
@@ -283,7 +280,6 @@ public class CameraManager {
     /**
      * 开始预览。
      */
-    @WorkerThread
     private void doStartPreview() {
         Log.e(TAG, "doStartPreview() called");
         Camera camera = mCamera;
@@ -329,7 +325,6 @@ public class CameraManager {
     /**
      * 停止预览。
      */
-    @WorkerThread
     private void doStopPreview() {
         Log.e(TAG, "doStopPreview() called");
         Camera camera = mCamera;
@@ -342,7 +337,6 @@ public class CameraManager {
      *
      * @param isCloseAll 是否释放所有资源
      */
-    @WorkerThread
     private void doCloseCamera(boolean isCloseAll) {
         Log.e(TAG, "doCloseCamera() called isCloseAll=" + isCloseAll);
         if (mCamera != null) {

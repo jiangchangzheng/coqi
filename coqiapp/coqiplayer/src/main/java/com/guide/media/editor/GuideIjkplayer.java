@@ -1,4 +1,4 @@
-package com.guide.media.player;
+package com.guide.media.editor;
 
 public class GuideIjkplayer {
 
